@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Remove Special Characters
+Plugin Name: Remove Special Characters on Upload
 Version: 1.0.0
 Description: A plugin that will help you remove special characters from the name of your files.
 Author: Douglas Faria
