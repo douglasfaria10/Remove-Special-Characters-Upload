@@ -1,4 +1,4 @@
-=== Remove Special Characters ===
+=== Remove Special Characters on Upload ===
 Contributors: douglasfaria10
 Tags: special characters, upload, slug,
 Requires at least: 4.0
