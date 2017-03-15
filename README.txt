@@ -1,4 +1,4 @@
-=== WordPress Remove Special Characters ===
+=== Remove Special Characters ===
 Contributors: douglasfaria10
 Tags: special characters, upload, slug,
 Requires at least: 4.0
