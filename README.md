@@ -1,1 +1,0 @@
-# WordPress-Remove-Special-Characters
