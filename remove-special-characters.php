@@ -5,7 +5,7 @@ Version: 1.0.0
 Description: A plugin that will help you remove special characters from the name of your files.
 Author: Douglas Faria
 Author URI: https://www.assoweb.com.br
-Plugin URI: https://wordpress.org/plugins/remove-special-characters
+Plugin URI: https://wordpress.org/plugins/remove-special-characters-upload
 License: GPLv2 or later
 */
 function cleaning_filename($text) {
