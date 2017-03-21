@@ -8,13 +8,13 @@ Author URI: https://www.assoweb.com.br
 Plugin URI: https://wordpress.org/plugins/remove-special-characters-upload
 License: GPLv2 or later
 */
-function cleaning_filename($text) {
+function rscu_cleaning_filename($text) {
 	
-	//GET FILE EXTENSION
-	$chr_ext = end(explode('.' , $text));
+    //GET FILE EXTENSION
+    $chr_ext = end(explode('.' , $text));
 
-	//CONVERTE á TO a
-	$text = preg_replace("/[áàâãªä]/u","a",$text);
+    //CONVERTE á TO a
+    $text = preg_replace("/[áàâãªä]/u","a",$text);
     $text = preg_replace("/[ÁÀÂÃÄ]/u","A",$text);
     $text = preg_replace("/[ÍÌÎÏ]/u","I",$text);
     $text = preg_replace("/[íìîï]/u","i",$text);
@@ -81,6 +81,5 @@ function cleaning_filename($text) {
 
     return strtolower( $text . '.' . $chr_ext );
 }
-add_filter('sanitize_file_name', 'cleaning_filename', 10);
-
+add_filter('sanitize_file_name', 'rscu_cleaning_filename', 10);
 ?>
